@@ -8,10 +8,10 @@ _Platform to simulate real world environments._
 
 - Habitat-Sim _ICCV 2019_ [paper](https://arxiv.org/abs/1904.01201) [code](https://github.com/facebookresearch/habitat-sim) [homepage](https://aihabitat.org/)
   - visual content: Matterport3D, House3D, AI2-THOR, etc. (_partially realistic_)
-  - action space: continuous
+  - Action Space: continuous
 - AI2-THOR _2019_ [paper](https://arxiv.org/abs/1712.05474) [code](https://github.com/allenai/ai2thor) [homepage](https://ai2thor.allenai.org/)
   - visual content: AI2-THOR
-  - action space: continuous
+  - Action Space: continuous
   - interactive
 - CHALET _2019_ [paper](https://arxiv.org/abs/1801.07357) [code](https://github.com/lil-lab/chalet)
   - visual content: CHALET
