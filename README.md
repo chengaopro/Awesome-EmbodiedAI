@@ -2,48 +2,61 @@
 
 A curated list of awesome embodied simulators, tasks, datasets. Simulators help render images and simulate the behavior of agents, as if they are situated in an real world environment. Datasets, on the contrary, provides training data (e.g. navigation instructions) and ground truths (e.g. navigation trajectories). Some simulator comes along with a dataset with the same name, so there might be duplicated names in different sections. 
 
+Please feel free to pull requests or open an issue to add papers.
+
 ## Simulator
 
 _Platform to simulate real world environments._
 
-- Habitat-Sim _ICCV 2019_ [paper](https://arxiv.org/abs/1904.01201) [code](https://github.com/facebookresearch/habitat-sim) [homepage](https://aihabitat.org/)
-  - visual content: Matterport3D, House3D, AI2-THOR, etc. (_partially realistic_)
+- Habitat-Simulator
+  - Venue/Year: ICCV 2019 | [[paper]](https://arxiv.org/abs/1904.01201) [[code]](https://github.com/facebookresearch/habitat-sim) [[homepage]](https://aihabitat.org/)
+  - Visual Content: Matterport3D, House3D, AI2-THOR, etc. (_partially realistic_)
   - Action Space: continuous
-- AI2-THOR _2019_ [paper](https://arxiv.org/abs/1712.05474) [code](https://github.com/allenai/ai2thor) [homepage](https://ai2thor.allenai.org/)
-  - visual content: AI2-THOR
+- AI2-THOR  
+  - Venue/Year: Arxiv 2019 | [[paper]](https://arxiv.org/abs/1712.05474) [[code]](https://github.com/allenai/ai2thor) [[homepage]](https://ai2thor.allenai.org/)
+  - Visual Content: AI2-THOR
   - Action Space: continuous
-  - interactive
-- CHALET _2019_ [paper](https://arxiv.org/abs/1801.07357) [code](https://github.com/lil-lab/chalet)
-  - visual content: CHALET
-  - action space: continuous
-  - interactive
-- Matterport3D _3DV 2017_ [paper](https://arxiv.org/abs/1709.06158) [code](https://github.com/niessner/Matterport) [homepage](https://niessner.github.io/Matterport/) 
-  - visual content: Matterport3D (realistic)
-  - action space: graph based
-- MINOS _CVPR 2017_ [paper](https://arxiv.org/abs/1712.03931) [code](https://github.com/minosworld/minos) [homepage](https://minosworld.github.io/)
-  - visual content: SUNCG+Matterport3D (partially realistic)
-  - action space: continuous
-- Gibson _CVPR 2018_ [paper](https://arxiv.org/abs/1808.10654) [code](https://github.com/StanfordVL/GibsonEnv) [homepage](http://gibsonenv.stanford.edu/)
-  - visual content: Gibson+2D3DS+Matterport3D (realistic)
-  - action space: continuous
-  - interactive
-- House3D _2018_ [paper](https://arxiv.org/abs/1801.02209) [code](https://github.com/facebookresearch/House3D)
-  - visual content: SUNCG
-  - action space: continuous
-- SUNCG _CVPR 2017_ [paper](https://arxiv.org/abs/1611.08974) 
-  - visual content: SUNCG
-- HoME _NIPS 2017_ [paper](https://arxiv.org/abs/1711.11017) [code](https://github.com/ml-lab/home-platform)
-  - visual content: SUNCG
+  - Interactive: Yes
+- CHALET 
+  - Venue/Year: Arxiv 2019 | [[paper]](https://arxiv.org/abs/1801.07357) [[code]](https://github.com/lil-lab/chalet)
+  - Visual Content: CHALET
+  - Action Space: continuous
+  - Interactive: Yes
+- Matterport3D 
+  - Venue/Year: 3DV 2017 | [[paper]](https://arxiv.org/abs/1709.06158) [[code]](https://github.com/niessner/Matterport) [[homepage]](https://niessner.github.io/Matterport/) 
+  - Visual Content: Matterport3D (realistic)
+  - Action Space: graph based
+- MINOS 
+  - Venue/Year: CVPR 2017 | [[paper]](https://arxiv.org/abs/1712.03931) [[code]](https://github.com/minosworld/minos) [[homepage]](https://minosworld.github.io/)
+  - Visual Content: SUNCG+Matterport3D (partially realistic)
+  - Action Space: continuous
+- Gibson 
+  - Venue/Year: CVPR 2018 | [[paper]](https://arxiv.org/abs/1808.10654) [[code]](https://github.com/StanfordVL/GibsonEnv) [[homepage]](http://gibsonenv.stanford.edu/)
+  - Visual Content: Gibson+2D3DS+Matterport3D (realistic)
+  - Action Space: continuous
+  - Interactive: Yes
+- House3D 
+  - Venue/Year: Arxiv 2018 | [[paper]](https://arxiv.org/abs/1801.02209) [[code]](https://github.com/facebookresearch/House3D)
+  - Visual Content: SUNCG
+  - Action Space: continuous
+- SUNCG 
+  - Venue/Year: CVPR 2017 | [[paper]](https://arxiv.org/abs/1611.08974) 
+  - Visual Content: SUNCG
+- HoME  
+  - Venue/Year: NIPS 2017 | [[paper]](https://arxiv.org/abs/1711.11017) [[code]](https://github.com/ml-lab/home-platform)
+  - Visual Content: SUNCG
   - language content: description of objects
-  - action space: continuous
-- VirtualHome _CVPR 2018_ [paper](https://arxiv.org/abs/1806.07011) [code](https://github.com/xavierpuigf/virtualhome) [homepage](http://virtual-home.org/) 
-  - visual content: VirtualHome
-  - action space: continuous
-  - interactive
-- SceneNet RGB-D _ICCV 2017_ [paper](http://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/dyson-robotics-lab/jmccormac_etal_iccv2017.pdf) [code](https://github.com/jmccormac/pySceneNetRGBD) [homepage](https://robotvault.bitbucket.io/scenenet-rgbd.html)
-  - visual content: SceneNet RGB-D
-  - action space: continuous
-  - interactive
+  - Action Space: continuous
+- VirtualHome  
+  - Venue/Year: CVPR 2018 | [[paper]](https://arxiv.org/abs/1806.07011) [[code]](https://github.com/xavierpuigf/virtualhome) [homepage](http://virtual-home.org/) 
+  - Visual Content: VirtualHome
+  - Action Space: continuous
+  - Interactive: Yes
+- SceneNet RGB-D 
+  - Venue/Year: ICCV 2017 | [[paper]](http://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/dyson-robotics-lab/jmccormac_etal_iccv2017.pdf) [[code]](https://github.com/jmccormac/pySceneNetRGBD) [[homepage]](https://robotvault.bitbucket.io/scenenet-rgbd.html)
+  - Visual Content: SceneNet RGB-D
+  - Action Space: continuous
+  - Interactive: Yes
 
 ## Tasks
 
