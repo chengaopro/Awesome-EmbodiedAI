@@ -1,8 +1,23 @@
 # Awesome EmbodiedAI (still in construct) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome embodied simulators, tasks, datasets. Simulators help render images and simulate the behavior of agents, as if they are situated in an real world environment. Datasets, on the contrary, provides training data (e.g. navigation instructions) and ground truths (e.g. navigation trajectories). Some simulator comes along with a dataset with the same name, so there might be duplicated names in different sections. 
+We maintain a curated list of Awesome Embodied AI works. Currently, we include simulators, tasks and datasets in Embodied AI field. 
+- Simulators help render images and simulate the behavior of agents, as if they are situated in an real world environment. 
+- Datasets provide training data (e.g. navigation instructions) and ground truths (e.g. navigation trajectories). 
+
+(Some simulator comes along with a dataset with the same name, so there might be duplicated names in different sections.)
 
 Please feel free to pull requests or open an issue to add papers.
+
+## Awesome companies
+
+- [Covariant](https://covariant.ai/)
+- [Mujin](https://www.mujin.co.jp/en/)
+- [Righthand](https://www.righthandrobotics.com/)
+- [Boston Dynamics](https://www.bostondynamics.com/)
+
+## Awesome Labs
+
+- [SVL](http://svl.stanford.edu/)
 
 ## Simulator
 
